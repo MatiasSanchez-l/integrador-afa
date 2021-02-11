@@ -1,0 +1,44 @@
+
+<!DOCTYPE web-app PUBLIC
+        "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+    <display-name>Archetype Created Web Application</display-name>
+
+    <servlet>
+        <servlet-name>JugadorController</servlet-name>
+        <servlet-class>controller.JugadorController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DireccionController</servlet-name>
+        <servlet-class>controller.DireccionController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EquipoController</servlet-name>
+        <servlet-class>controller.EquipoController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>HistorialJugadorController</servlet-name>
+        <servlet-class>controller.HistorialJugadorController</servlet-class>
+    </servlet>
+
+
+    <servlet-mapping>
+        <servlet-name>JugadorController</servlet-name>
+        <url-pattern>/jugador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DireccionController</servlet-name>
+        <url-pattern>/direccion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EquipoController</servlet-name>
+        <url-pattern>/equipo</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>HistorialJugadorController</servlet-name>
+        <url-pattern>/historialJugador</url-pattern>
+    </servlet-mapping>
+
+</web-app>
